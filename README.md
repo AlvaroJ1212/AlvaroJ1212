@@ -3,7 +3,7 @@
 # Hola, soy Álvaro 👋
 ### Junior Software Developer | Cloud Infrastructure & DevOps
 
-Ingeniero de software con un enfoque especializado en la automatización de infraestructura en la nube, cultura DevOps y metodologías GitOps. Combino el desarrollo de software tradicional con la orquestación de sistemas complejos para construir entornos resilientes, seguros y orientados a eventos.
+Desarrollador de software con un enfoque especializado en la automatización de infraestructura en la nube, cultura DevOps y metodologías GitOps. Combino el desarrollo de software tradicional con la orquestación de sistemas complejos para construir entornos resilientes, seguros y orientados a eventos.
 
 </div>
 
