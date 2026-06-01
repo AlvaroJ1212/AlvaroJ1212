@@ -1,9 +1,9 @@
 <div align="center">
 
 # Hola, soy Álvaro 👋
-### Junior Software Developer | Cloud Infrastructure & DevOps
+### Software Developer | Cloud Infrastructure & DevOps
 
-Desarrollador de software con un enfoque especializado en la automatización de infraestructura en la nube, cultura DevOps y metodologías GitOps. Combino el desarrollo de software tradicional con la orquestación de sistemas complejos para construir entornos resilientes, seguros y orientados a eventos.
+Desarrollador de software con un fuerte interés en la automatización de infraestructura en la nube, la cultura DevOps y las metodologías GitOps. Combino el desarrollo de software tradicional con herramientas de Infraestructura como Código (IaC) y automatización para construir entornos reproducibles, escalables y fáciles de mantener.
 
 </div>
 
@@ -11,7 +11,7 @@ Desarrollador de software con un enfoque especializado en la automatización de 
 
 ## 🛠️ Stack Tecnológico y Herramientas
 
-He consolidado un ecosistema de herramientas que abarca desde la provisión de infraestructura hasta el desarrollo de aplicaciones y la integración continua:
+Trabajo con tecnologías que abarcan desde la provisión de infraestructura hasta el desarrollo de aplicaciones y la integración continua:
 
 **☁️ Infraestructura & Cloud:**
 ![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=for-the-badge&logo=terraform&logoColor=white)
@@ -31,24 +31,28 @@ He consolidado un ecosistema de herramientas que abarca desde la provisión de i
 
 ---
 
-## 🏗️ Filosofía de Arquitectura e IaC
+## 🏗️ Infraestructura Cloud e IaC
 
-Mi aproximación a la infraestructura se basa en los principios de inmutabilidad y mínimo privilegio. No despliego servidores manualmente; los programo.
+Mi aproximación a la infraestructura se basa en los principios de automatización, reproducibilidad y gestión declarativa. Siempre que es posible, la infraestructura se define mediante código y queda versionada junto al resto del proyecto.
 
 ### 1. Arquitectura GCP Desacoplada (Blueprint/Component Pattern)
-He diseñado y mantengo una infraestructura base en Google Cloud Platform completamente modular. Utilizando Terraform, orquesto un entorno que invoca módulos externos versionados semánticamente (APIs, Redes VPC, Storage, Pub/Sub, IAM y Monitorización). Esto garantiza la separación estricta de responsabilidades y facilita la escalabilidad.
 
-### 2. Gestión de Estado y Aislamiento de Entornos
-Implemento una separación rigurosa entre los entornos de Desarrollo y Producción. Utilizo backends remotos en Google Cloud Storage para la gestión del `terraform.tfstate`, asegurando el bloqueo de estado para equipos concurrentes y previniendo la corrupción de datos durante los despliegues.
+He desarrollado una infraestructura modular sobre Google Cloud Platform utilizando Terraform. El entorno se organiza mediante módulos versionados y reutilizables para servicios como redes VPC, almacenamiento, IAM, Pub/Sub y monitorización, favoreciendo la separación de responsabilidades y la mantenibilidad del código.
+
+### 2. Gestión de Estado y Separación de Entornos
+
+Aplico una separación clara entre entornos de Desarrollo y Producción. Para ello utilizo backends remotos en Google Cloud Storage para la gestión del `terraform.tfstate`, garantizando la consistencia del estado y facilitando la evolución segura de la infraestructura.
 
 ### 3. Automatización de Pipelines (CI/CD)
-Tengo experiencia configurando y gestionando flujos de integración y despliegue continuo robustos, adaptables tanto a ecosistemas de **GitHub Actions** (mediante *reusable workflows*) como a los pipelines de **GitLab CI/CD**. 
-* **Validación Continua:** Ejecución automatizada de `terraform fmt` y `terraform validate` en cada Pull Request o Merge Request.
-* **Seguridad (Shift-Left):** Integración de análisis estático de seguridad en el código de infraestructura antes del despliegue.
-* **Despliegues Controlados:** Automatización de `terraform plan` con revisión obligatoria y `terraform apply` condicionado por el entorno de destino.
+
+He trabajado con flujos de integración y despliegue continuo tanto en **GitHub Actions** como en **GitLab CI/CD**, automatizando tareas habituales del ciclo de vida de la infraestructura.
+
+* **Validación Continua:** Ejecución automatizada de `terraform fmt` y `terraform validate` sobre cada cambio.
+* **Seguridad (Shift-Left):** Integración de análisis estático sobre el código de infraestructura.
+* **Despliegues Controlados:** Automatización de `terraform plan` y despliegues condicionados según el entorno de destino.
 
 ---
 
 <div align="center">
-  <i>Te invito a explorar los repositorios fijados a continuación para auditar el código fuente, la estructura de mis módulos de Terraform y la configuración de mis pipelines.</i>
+  <i>Te invito a explorar los repositorios fijados a continuación para conocer la estructura de los proyectos, la organización de la infraestructura y la configuración de los pipelines.</i>
 </div>
