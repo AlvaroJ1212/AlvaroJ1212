@@ -9,29 +9,29 @@ Desarrollador de software con un fuerte interés en la automatización de infrae
 
 ---
 
-## 🛠️ Stack Tecnológico y Herramientas
+## Stack Tecnológico y Herramientas
 
 Trabajo con tecnologías que abarcan desde la provisión de infraestructura hasta el desarrollo de aplicaciones y la integración continua:
 
-**☁️ Infraestructura & Cloud:**
+** Infraestructura & Cloud:**
 ![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=for-the-badge&logo=terraform&logoColor=white)
 ![Google Cloud](https://img.shields.io/badge/Google_Cloud-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white)
 ![Oracle Cloud](https://img.shields.io/badge/Oracle_Cloud-F80000?style=for-the-badge&logo=oracle&logoColor=white)
 ![Kubernetes](https://img.shields.io/badge/kubernetes-326CE5.svg?&style=for-the-badge&logo=kubernetes&logoColor=white)
 
-**💻 Desarrollo & Bases de Datos:**
+** Desarrollo & Bases de Datos:**
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
 ![SQL](https://img.shields.io/badge/SQL-003B57?style=for-the-badge&logo=postgresql&logoColor=white)
 
-**⚙️ CI/CD & Version Control:**
+** CI/CD & Version Control:**
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)
 ![GitLab CI](https://img.shields.io/badge/GitLab_CI-330F63?style=for-the-badge&logo=gitlab&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 
 ---
 
-## 🏗️ Infraestructura Cloud e IaC
+## Infraestructura Cloud e IaC
 
 Mi aproximación a la infraestructura se basa en los principios de automatización, reproducibilidad y gestión declarativa. Siempre que es posible, la infraestructura se define mediante código y queda versionada junto al resto del proyecto.
 
